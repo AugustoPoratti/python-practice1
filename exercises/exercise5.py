@@ -11,11 +11,11 @@ variable_02 = "días "
 variable_03 = "a todos!"
 
 # COMPLETAR - INICIO
-
+strings_concatenados = variable_01 + variable_02 + variable_03
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Buenos días a todos!"
-
+print(strings_concatenados)
 
 """
 Formatear los siguientes strings en un único string.
@@ -28,11 +28,11 @@ usar operadores).
 # "strings!"
 
 # COMPLETAR - INICIO
-
+strings_concatenados = "¡Mamá " "estoy concatenando " "strings!"  
 # COMPLETAR - FIN
 
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
-
+print(strings_concatenados)
 
 """
 Formatear las siguientes variables en un único string.
@@ -45,11 +45,11 @@ variable_02 = 600
 variable_03 = " pesos a un amigo."
 
 # COMPLETAR - INICIO
-
+strings_concatenados = variable_01 + str(variable_02) + variable_03
 # COMPLETAR - FIN
 
 assert strings_concatenados == "Le debo 600 pesos a un amigo."
-
+print(strings_concatenados)
 
 """
 Formatear las siguientes variables en un único string.
