@@ -1,8 +1,9 @@
-lista = ["ho", "la", 81, 6, 42, "como", "estas?"]
+conjunto_05 = {1, 2, 3, 4}
+conjunto_06 = {5, 6, 7, 8}
 
 # COMPLETAR - INICIO
-elemento_extraido = lista.pop(3)
+conjunto_union = conjunto_05 | conjunto_06
 # COMPLETAR - FIN
 
-assert elemento_extraido == 6
-print(elemento_extraido)
+assert conjunto_union == {1, 2, 3, 4, 5, 6, 7, 8}
+print(conjunto_union)
